@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Default Settings</h2>
+    <table>
+        <tr>
+            <th>Setting</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>IP Address</td>
+            <td>172.0.0.1</td>
+        </tr>
+        <tr>
+            <td>Access point SSID</td>
+            <td>CHOMTV</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>@@@@2222</td>
+        </tr>
+        <tr>
+            <td>Review the password log saved at the Evil-Twin site</td>
+            <td>http://172.0.0.1/'Password' (default @@@@2222)</td>
+        </tr>
+        <tr>
+            <td>Exit Evil-Twin Page</td>
+            <td>At the Evil-Twin Page Enter 'Password' in the password input field</td>
+        </tr>
+    </table>
+
+    <h2>Jump Pin Connections for ESP32</h2>
+    <table>
+        <tr>
+            <th>Configuration</th>
+            <th>Connections</th>
+        </tr>
+        <tr>
+            <td>ESP32 = RTL8720</td>
+            <td>
+                GND = GND<br>
+                Vin = 5V<br>
+                D34(GPIO34) = PB1<br>
+                D35(GPIO35) = PB2<br>
+                D32(GPIO32) = PA30<br>
+                D25(GPIO25) = PA25<br>
+                D26(GPIO26) = PA26
+            </td>
+        </tr>
+    </table>
+
+    <h2>Jump Pin Connections for ESP32 vs RF24</h2>
+    <table>
+        <tr>
+            <th>Interface</th>
+            <th>Connections</th>
+        </tr>
+        <tr>
+            <td>HSPI</td>
+            <td>SCK = 14, MISO = 12, MOSI = 13, CS = 15, CE = 16</td>
+        </tr>
+        <tr>
+            <td>VSPI</td>
+            <td>SCK = 18, MISO = 19, MOSI = 23, CS = 21, CE = 22</td>
+        </tr>
+    </table>
+
+    <h2>Hand Reset User Password</h2>
+    <table>
+        <tr>
+            <th>Board</th>
+            <th>Reset Procedure</th>
+        </tr>
+        <tr>
+            <td>RTL8720</td>
+            <td>Hold BURN Button 10s (GND + PA7)</td>
+        </tr>
+        <tr>
+            <td>ESP8266</td>
+            <td>Hold FLASH Button 10s (GND + GPIO0)</td>
+        </tr>
+        <tr>
+            <td>ESP32</td>
+            <td>Hold BOOT Button 10s (GND + GPIO0)</td>
+        </tr>
+    </table>
+</body>
+</html>
