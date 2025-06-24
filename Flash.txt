@@ -1,0 +1,5 @@
+https://esp.huhn.me/
+Offset 	-> 	Bin
+0x1000 	-> 	Bootloader
+0x8000 	-> 	Partitions
+0x10000 -> 	Firmware
