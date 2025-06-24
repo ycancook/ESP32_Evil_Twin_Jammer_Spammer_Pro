@@ -18,3 +18,15 @@
         By using or distributing this code, you agree to use it only for ethical and legal purposes, such as penetration testing with proper authorization or learning about network security.
 
     👉 If you are unsure about the legality of using this code in your region, do not use it.
+
+    ⚠️ Dự án này được tạo ra với mục đích nghiên cứu và giáo dục về an toàn thông tin.
+
+    Tác giả không chịu trách nhiệm với bất kỳ hành vi lạm dụng hoặc thiệt hại nào do mã nguồn gây ra.
+
+    Không sử dụng phần mềm này trên các mạng mà bạn không sở hữu hoặc không được cấp quyền rõ ràng.
+
+    Việc sử dụng mã này để tấn công trái phép có thể vi phạm pháp luật và bị xử lý hình sự tại quốc gia của bạn.
+
+    Khi sử dụng mã nguồn này, bạn đồng ý chỉ dùng nó cho mục đích hợp pháp, ví dụ như kiểm thử bảo mật có sự cho phép hoặc học tập.
+
+    👉 Nếu không chắc chắn về tính pháp lý tại nơi bạn sinh sống, xin đừng sử dụng.
