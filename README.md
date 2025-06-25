@@ -6,6 +6,90 @@
 ### 0x10000 -> 	ESP32_Evil_Twin_Pro.ino
 # * See the Readme.html file to connect to other modules
 
+<h2>Default Settings</h2>
+    <table>
+        <tr>
+            <th>Setting</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>IP Address</td>
+            <td>172.0.0.1</td>
+        </tr>
+        <tr>
+            <td>Access point SSID</td>
+            <td>CHOMTV</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>@@@@2222</td>
+        </tr>
+        <tr>
+            <td>Review the password log saved at the Evil-Twin site</td>
+            <td>http://172.0.0.1/'Password' (default @@@@2222)</td>
+        </tr>
+        <tr>
+            <td>Exit Evil-Twin Page</td>
+            <td>At the Evil-Twin Page Enter 'Password' in the password input field</td>
+        </tr>
+    </table>
+
+    <h2>Jump Pin Connections for ESP32</h2>
+    <table>
+        <tr>
+            <th>Configuration</th>
+            <th>Connections</th>
+        </tr>
+        <tr>
+            <td>ESP32 = RTL8720</td>
+            <td>
+                GND = GND<br>
+                Vin = 5V<br>
+                D34(GPIO34) = PB1<br>
+                D35(GPIO35) = PB2<br>
+                D32(GPIO32) = PA30<br>
+                D25(GPIO25) = PA25<br>
+                D26(GPIO26) = PA26
+            </td>
+        </tr>
+    </table>
+
+    <h2>Jump Pin Connections for ESP32 vs RF24</h2>
+    <table>
+        <tr>
+            <th>Interface</th>
+            <th>Connections</th>
+        </tr>
+        <tr>
+            <td>HSPI</td>
+            <td>SCK = 14, MISO = 12, MOSI = 13, CS = 15, CE = 16</td>
+        </tr>
+        <tr>
+            <td>VSPI</td>
+            <td>SCK = 18, MISO = 19, MOSI = 23, CS = 21, CE = 22</td>
+        </tr>
+    </table>
+
+    <h2>Hand Reset User Password</h2>
+    <table>
+        <tr>
+            <th>Board</th>
+            <th>Reset Procedure</th>
+        </tr>
+        <tr>
+            <td>RTL8720</td>
+            <td>Hold BURN Button 10s (GND + PA7)</td>
+        </tr>
+        <tr>
+            <td>ESP8266</td>
+            <td>Hold FLASH Button 10s (GND + GPIO0)</td>
+        </tr>
+        <tr>
+            <td>ESP32</td>
+            <td>Hold BOOT Button 10s (GND + GPIO0)</td>
+        </tr>
+    </table>
+
 <a href="https://www.buymeacoffee.com/h3r2015p" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 📜 DISCLAIMER
