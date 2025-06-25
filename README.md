@@ -80,10 +80,6 @@
             <td>Hold BURN Button 10s (GND + PA7)</td>
         </tr>
         <tr>
-            <td>ESP8266</td>
-            <td>Hold FLASH Button 10s (GND + GPIO0)</td>
-        </tr>
-        <tr>
             <td>ESP32</td>
             <td>Hold BOOT Button 10s (GND + GPIO0)</td>
         </tr>
