@@ -33,8 +33,7 @@
             <td>At the Evil-Twin Page Enter 'Password' in the password input field</td>
         </tr>
     </table>
-
-    <h2>Jump Pin Connections for ESP32</h2>
+<h2>Jump Pin Connections for ESP32</h2>
     <table>
         <tr>
             <th>Configuration</th>
@@ -52,9 +51,9 @@
                 D26(GPIO26) = PA26
             </td>
         </tr>
-    </table>
+</table>
 
-    <h2>Jump Pin Connections for ESP32 vs RF24</h2>
+<h2>Jump Pin Connections for ESP32 vs RF24</h2>
     <table>
         <tr>
             <th>Interface</th>
@@ -68,9 +67,9 @@
             <td>VSPI</td>
             <td>SCK = 18, MISO = 19, MOSI = 23, CS = 21, CE = 22</td>
         </tr>
-    </table>
+</table>
 
-    <h2>Hand Reset User Password</h2>
+<h2>Hand Reset User Password</h2>
     <table>
         <tr>
             <th>Board</th>
@@ -88,7 +87,8 @@
             <td>ESP32</td>
             <td>Hold BOOT Button 10s (GND + GPIO0)</td>
         </tr>
-    </table>
+</table>
+    
 
 <a href="https://www.buymeacoffee.com/h3r2015p" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
