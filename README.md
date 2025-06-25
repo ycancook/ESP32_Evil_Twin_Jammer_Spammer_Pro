@@ -98,8 +98,8 @@
 
         Using this tool for unauthorized access or attacks may be illegal and punishable by law in your country.
 
-        By using or distributing this code, you agree to use it only for ethical and legal purposes, such as 
-        penetration testing with proper authorization or learning about network security.
+        By using or distributing this code, you agree to use it only for ethical and legal purposes, 
+        such as penetration testing with proper authorization or learning about network security.
 
     👉 If you are unsure about the legality of using this code in your region, do not use it.
 
