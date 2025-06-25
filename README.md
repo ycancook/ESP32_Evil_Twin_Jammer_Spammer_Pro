@@ -5,6 +5,9 @@
 ### 0x8000 	-> 	ESP32_Evil_Twin_Pro.ino.partitions
 ### 0x10000 -> 	ESP32_Evil_Twin_Pro.ino
 # * See the Readme.html file to connect to other modules
+
+<a href="https://www.buymeacoffee.com/h3r2015p" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 📜 DISCLAIMER
 
     ⚠️ This project is created for educational and ethical testing purposes only.
